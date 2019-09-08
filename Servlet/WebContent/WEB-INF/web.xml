@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Servlet</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Saludo</display-name>
+    <servlet-name>Saludo</servlet-name>
+    <servlet-class>com.senati.servlet.Saludo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Saludo</servlet-name>
+    <url-pattern>/Saludo</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Primer servlet</description>
+    <display-name>bienvenida</display-name>
+    <servlet-name>bienvenida</servlet-name>
+    <servlet-class>com.senati.servlet.Saludo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>bienvenida</servlet-name>
+    <url-pattern>/bienvenida</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Primer servlet</description>
+    <display-name>bienvenido</display-name>
+    <servlet-name>bienvenido</servlet-name>
+    <servlet-class>com.senati.servlet.Saludo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>bienvenido</servlet-name>
+    <url-pattern>/bienvenido</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Primer servlet</description>
+    <display-name>bienvenidos</display-name>
+    <servlet-name>bienvenidos</servlet-name>
+    <servlet-class>com.senati.servlet.Saludo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>bienvenidos</servlet-name>
+    <url-pattern>/bienvenidos</url-pattern>
+  </servlet-mapping>
+</web-app>
